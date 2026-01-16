@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "name": "odc25/calculator",
+  "title": "2025 Overtime Deduction Calculator",
+  "category": "widgets",
+  "icon": "calculator",
+  "description": "Embed the 2025 Overtime Deduction Calculator.",
+  "textdomain": "overtime-deduction-calculator-2025",
+  "editorScript": "file:../../assets/js/odc25-block.js",
+  "render": "file:render.php"
+}
