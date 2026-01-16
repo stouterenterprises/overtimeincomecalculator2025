@@ -1,0 +1,121 @@
+.odc25-calculator {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: #111827;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.odc25-calculator h2,
+.odc25-calculator h3 {
+  margin-top: 0;
+}
+
+.odc25-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .odc25-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.odc25-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.odc25-field label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.odc25-field input,
+.odc25-field select,
+.odc25-field textarea {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+}
+
+.odc25-field-actions {
+  justify-content: flex-end;
+}
+
+.odc25-buckets {
+  display: grid;
+  gap: 12px;
+}
+
+.odc25-bucket {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+  background: #f9fafb;
+}
+
+@media (min-width: 768px) {
+  .odc25-bucket {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.odc25-summary {
+  display: grid;
+  gap: 8px;
+  background: #eff6ff;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.odc25-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.odc25-results.is-hidden {
+  display: none;
+}
+
+.odc25-audit {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 0.95rem;
+}
+
+.odc25-audit th,
+.odc25-audit td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+}
+
+.odc25-audit th {
+  background: #f3f4f6;
+}
+
+.odc25-note {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.odc25-bucket-count {
+  font-weight: 600;
+}
+
+.odc25-section {
+  margin-top: 24px;
+}
